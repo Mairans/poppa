@@ -1,0 +1,215 @@
+@font-face {
+    font-family: 'Cat';
+    src: url('../fonts/Cheshirski.ttf');
+}
+
+@font-face {
+    font-family: 'Burton';
+    src: url('../fonts/NITEMARE.TTF');
+}
+
+* {
+    font-family: 'Cat', sans-serif;
+}
+
+p {
+    font-family: 'Burton';
+    font-size: 3rem;
+    line-height: 70px;
+}
+
+section {
+    margin-bottom: 215px;
+}
+
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-color: #8aa0f4;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+}
+
+header {
+    padding: 25px 0;
+    margin-bottom: 60px;
+}
+
+.container_inner {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.logo {
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    transition: all .5s;
+}
+
+.sticky {
+    margin-left: auto;
+    position: fixed;
+    z-index: 1000;
+}
+
+.logo:hover {
+    box-shadow: 0px 0px 15px 15px #fef392;
+}
+
+nav {
+    margin: 0 180px 0 auto;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.item {
+    transition: all .5s;
+
+}
+
+.item:hover {
+    border-radius: 50%;
+    box-shadow: 0 30px 10px #fef392;
+    transform: translateY(-15px);
+}
+
+.socials {
+    margin-right: 320px;
+}
+
+.socials_menu {
+    display: flex;
+    gap: 25px;
+}
+
+.social_item {
+    transition: all .5s;
+    border-radius: 50%;
+}
+
+.social_item:hover {
+    box-shadow: 0 30px 10px #fef392;
+    transform: translateY(-15px);
+}
+
+.main {
+    position: relative;
+}
+
+.btn {
+    font-size: 5rem;
+    padding: 10px 20px;
+    transform: rotate(-39deg);
+    font-size: 4rem;
+    padding: 10px 20px;
+    position: absolute;
+    bottom: 243px;
+    right: 74.8%;
+    border-radius: 45%;
+    border: 5px solid #000;
+    background-color: #8aa0f4;
+    transition: all .5s;
+}
+
+.main .presale {
+    bottom: 85px;
+    right: 44%;
+    transform: rotate(14deg)
+}
+
+.btn:hover {
+    box-shadow: 0 0 20px 10px #fef392;
+    font-size: 5rem;
+    border-color: #fef392;
+}
+
+.about {
+    position: relative;
+}
+
+
+.title {
+    font-size: 10rem;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.cat1 {
+    position: absolute;
+    top: 200px;
+    left: -226px;
+    transform: rotate(90deg);
+    transition: all .5s;
+}
+
+.cat2 {
+    position: absolute;
+    top: 400px;
+    right: -226px;
+    transform: rotate(-90deg);
+    transition: all .5s;
+}
+
+.cat1:hover {
+    left: 0;
+}
+
+.cat2:hover {
+    right: 0;
+}
+
+.preSale p {
+    font-size: 3.5rem;
+    line-height: 100px;
+}
+
+.contract .container {
+    text-align: center;
+}
+
+span {
+    cursor: pointer;
+    font-size: 3rem;
+    transition: all .5s;
+}
+
+span:hover {
+    color: #fef392;
+}
+
+.fun {
+    padding: 0 15px;
+}
+
+.nlo {
+    transition: all .5s;
+}
+
+.nlo:hover {
+    transform: rotate(360deg);
+}
+
+.tokenomics {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+footer {
+    padding: 5px 0;
+    font-size: 2rem;
+    text-align: center;
+    border: 5px solid #000;
+    border-width: 5px 0 5px 0;
+}
